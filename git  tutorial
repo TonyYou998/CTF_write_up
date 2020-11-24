@@ -1,0 +1,12 @@
+1 khởi tạo git = lệnh git 
+2  kết nối project với respo trên github bằng lệnh git remote add origin url vs url là link đến respo
+    vd git remote add origin https://github.com/TonyYou998/CTF_write_up
+3 kiểm tra trạng thái = git status 
+    *màu đỏ là chưa add 
+    *màu xanh lá là add rồi nhưng chưa commit và local respo=>commit vào local respo
+4 add vào local respo bằng lệnh git add file_name vd git add index.html or git add . để add hết tất cả file mới (dùng git add . cho lẹ)
+
+5 check lại trạng thái vs git status (đã chuyển qua xanh lá => commit thôi)
+6 commit bằng lệnh git commit -m "first commit" (phần trong "" là cmt sẽ hiện trên github giải thích về tác dụng của các file vừa up vd update,fix bug... ko dc bỏ trống)
+7 h thì push lên remote respo băng lệnh git push -u origin master (các lần push sau chỉ cần git push )
+******bước 1 và 2 chỉ làm 1 lần lúc khởi tạo project các lần push còn lại làm từ bước 3**************
